@@ -13,7 +13,7 @@ const App = () => {
     const { name, value } = e.target;    
     if (name === 'mobile') {
       setMobile(value);
-    } else if (name === 'otp') {    
+    } else if (name === 'otp') {      
       setOtp(value);
     }
   };
@@ -87,11 +87,11 @@ const App = () => {
     console.log(error)
     alert(error)
   }
-  }
+  }  
  
 
   return (
-    <div className='abilash'>
+    <div className='abilash'>  
        
       <div className='abi1'>
       {user?.email?`signed in as :${user.email}`:'Logged out please Login'}
